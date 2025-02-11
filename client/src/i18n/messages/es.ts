@@ -1,0 +1,86 @@
+export default {
+  'app.title': 'Plataforma DevOps',
+  'app.description': 'Accede y gestiona tus recursos DevOps',
+
+  // Navegación
+  'nav.dashboard': 'Panel',
+  'nav.resources': 'Recursos',
+  'nav.settings': 'Configuración',
+  'nav.about': 'Acerca de',
+  'nav.logout': 'Cerrar Sesión',
+
+  // Autenticación
+  'auth.welcome': 'Bienvenido',
+  'auth.description': 'Inicia sesión para acceder a la biblioteca de recursos DevOps',
+  'auth.login': 'Iniciar Sesión',
+  'auth.register': 'Registrarse',
+  'auth.username': 'Usuario',
+  'auth.password': 'Contraseña',
+  'auth.signin': 'Entrar',
+  'auth.createAccount': 'Crear Cuenta',
+
+  // Categorías de Recursos
+  'resources.title': 'Biblioteca de Recursos',
+  'resources.description': 'Explora y accede a recursos DevOps',
+  'resources.category.cicd': 'CI/CD',
+  'resources.category.infrastructure': 'Infraestructura',
+  'resources.category.monitoring': 'Monitoreo',
+  'resources.category.security': 'Seguridad',
+
+  // Gestión de Recursos
+  'resources.create': 'Crear Recurso',
+  'resources.create.title': 'Crear Nuevo Recurso',
+  'resources.create.description': 'Añadir un nuevo recurso a la biblioteca',
+  'resources.create.submit': 'Crear Recurso',
+  'resources.edit.title': 'Editar Recurso',
+  'resources.edit.description': 'Modificar un recurso existente',
+  'resources.edit.submit': 'Actualizar Recurso',
+  'resources.delete.title': 'Eliminar Recurso',
+  'resources.delete.description': '¿Estás seguro de que quieres eliminar este recurso? Esta acción no se puede deshacer.',
+  'resources.delete.cancel': 'Cancelar',
+  'resources.delete.confirm': 'Eliminar',
+  'resources.form.title': 'Título',
+  'resources.form.category': 'Categoría',
+  'resources.form.content': 'Contenido',
+  'resources.form.requiresAdmin': 'Requiere Acceso de Administrador',
+
+  // Panel
+  'dashboard.welcome': 'Bienvenido de nuevo, {username}',
+  'dashboard.description': 'Accede y gestiona tus recursos DevOps',
+  'dashboard.stats.cicd': 'Pipelines CI/CD',
+  'dashboard.stats.cicd.description': 'Plantillas de pipeline listas para usar',
+  'dashboard.stats.iac': 'Plantillas IaC',
+  'dashboard.stats.iac.description': 'Ejemplos de Infraestructura como Código',
+  'dashboard.stats.monitoring': 'Monitoreo',
+  'dashboard.stats.monitoring.description': 'Configuraciones de observabilidad',
+  'dashboard.stats.security': 'Seguridad',
+  'dashboard.stats.security.description': 'Mejores prácticas y configuraciones de seguridad',
+
+  // Idioma
+  'language': 'Idioma',
+  'language.en': 'English',
+  'language.es': 'Español',
+
+  // Configuración
+  'settings.title': 'Configuración',
+  'settings.description': 'Gestionar usuarios y configuración del sistema',
+  'settings.users.title': 'Gestión de Usuarios',
+  'settings.users.description': 'Administrar cuentas de usuario y permisos',
+  'settings.users.admin': 'Administrador',
+  'settings.users.user': 'Usuario',
+  'settings.users.create': 'Crear Usuario',
+  'settings.users.create.title': 'Crear Nuevo Usuario',
+  'settings.users.create.description': 'Añadir un nuevo usuario a la plataforma',
+  'settings.users.create.submit': 'Crear Usuario',
+  'settings.users.delete.title': 'Eliminar Usuario',
+  'settings.users.delete.description': '¿Estás seguro de que quieres eliminar este usuario? Esta acción no se puede deshacer.',
+  'settings.users.delete.cancel': 'Cancelar',
+  'settings.users.delete.confirm': 'Eliminar',
+  'settings.users.deleted': 'Usuario Eliminado',
+  'settings.users.deleted.description': 'El usuario ha sido eliminado exitosamente',
+  'settings.users.created': 'Usuario Creado',
+  'settings.users.created.description': 'El usuario ha sido creado exitosamente',
+  'settings.users.form.username': 'Usuario',
+  'settings.users.form.password': 'Contraseña',
+  'settings.users.form.isAdmin': 'Acceso de administrador',
+};
